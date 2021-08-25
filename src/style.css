@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+canvas {
+  position: relative;
+  display: block;
+  height: 100vh;
+  width: 100%;
+}
+
+.canvas-webgl {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
